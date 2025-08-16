@@ -36,7 +36,4 @@ I plan to keep updating the project as I learn more about Vue.js, .NET, and SQL 
 - Improve my skills in authentication, routing, and state management  
 - Implement a basic ticket purchase workflow  
 
----
-
-## 💡 Feedback  
-Since this is a beginner project, any suggestions or feedback are very welcome!  
+ 
