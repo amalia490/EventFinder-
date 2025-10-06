@@ -6,7 +6,9 @@ using System.Reflection.Metadata;
 public class Location
 {
     public int LocationId { get; set; }
-    public string Url { get; set; }
+  
     public string Name { get; set; }
-    public virtual ICollection<Show> Shows { get; set; }
+
+    public int Capacity { get; set; }
+    
 }

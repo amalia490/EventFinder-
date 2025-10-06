@@ -2,13 +2,9 @@
 using System.Reflection.Emit;
 using System.Reflection.Metadata;
 
-
-public class Category
+public class Incercare
 {
-    public int CategoryId { get; set; }
-   
+    public int IncercareId { get; set; }
     public string Name { get; set; }
-
-    public virtual ICollection<Show> Shows { get; set; }
 
 }

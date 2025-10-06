@@ -21,9 +21,17 @@ public class ApplicationDbContext : DbContext
     public DbSet<Category> Categories { get; set; }
 
     public DbSet<Participant> Participants { get; set; }
-    public DbSet<Payment> Payments { get; set; }
-    //public DbSet<Revieww> Reviews { get; set; }
+    
     public DbSet<Show> Shows { get; set; }
 
+    public DbSet<Review> Reviews { get; set; }
+
+    public DbSet<Purchase> Purchases { get; set; }
+
+    public DbSet<TicketType> TicketTypes { get; set; }
+
+    public DbSet<Ticket> Tickets { get; set; }
+
+    public DbSet<Incercare> Incercari => Set<Incercare>();
 
 }

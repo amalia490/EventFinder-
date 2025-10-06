@@ -3,16 +3,15 @@ using System.Reflection.Emit;
 using System.Reflection.Metadata;
 
 
-public class Show
+public class TicketType
 {
+    public int TicketTypeId { get; set; }
+    
     public int ShowId { get; set; }
-
     public string Name { get; set; }
+    public float Price { get; set; }
+
     public string Description { get; set; }
-    public int CategoryId { get; set; }
-    public int? LocationId { get; set; }
-    public DateTime BeginDate { get; set; }
-    public DateTime EndDate { get; set; }
-    public string? PathImage { get; set; }
+    public int availableTickets { get; set; }
 
 }
